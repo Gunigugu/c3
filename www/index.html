@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>CECE</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="css/jquery.mobile-1.0.1.min.css" />
+<link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+
+    <section id="login" data-role="page">
+        <header data-role="header">
+            <div class="logodivcece"></div>
+            <div class="logodiv"></div>
+            <h1>Ingresar</h1>
+        </header>
+        <article data-role="content">
+            <form id="form_login">
+                <div data-role="fieldcontain" class="ui-hide-label">
+                    <label for="txtuser">DNI:</label>
+                    <input type="text" name="txtuser" id="txtuser" value="" placeholder="Documento" />
+                </div>
+                <div data-role="fieldcontain" class="ui-hide-label">
+                    <label for="txtpassword">Clave:</label>
+                    <input type="password" name="txtpassword" id="txtpassword" value="" placeholder="Clave" />
+                </div>
+                <input type="button" value="Ingresar" id="btnLogin">
+            </form>
+		 </article>
+        <header data-role="header">
+	<h1>Recuperar Clave</h1>
+        </header>
+        <article data-role="content">
+            <form id="form_recup">
+                <div data-role="fieldcontain" class="ui-hide-label">
+                    <label for="txtdni">DNI:</label>
+                    <input type="text" name="txtdni" id="txtdni" value="" placeholder="Documento" />
+                </div>
+                <input type="button" value="Recuperar Clave" id="btnRecup">
+            </form>
+
+		 </article>
+    </section>
+    <!-- Aqui nuestro dialog con el mensaje de error  -->
+    <section id="pageError" data-role="dialog">
+        <header data-role="header">
+            <h1>Error</h1>
+        </header>
+        <article data-role="content">
+            <p>Usuario o contraseña no valida</p>
+            <a href="#" data-role="button" data-rel="back">Aceptar</a>
+        </article>
+    </section>
+
+    <section id="pageErrorRecup" data-role="dialog">
+        <header data-role="header">
+            <h1>Error</h1>
+        </header>
+        <article data-role="content">
+            <p>DNI no valido</p>
+            <a href="#" data-role="button" data-rel="back">Aceptar</a>
+        </article>
+    </section>
+	
+    <section id="pageCorrectRecup" data-role="dialog">
+        <header data-role="header">
+            <h1>Email enviado</h1>
+        </header>
+        <article data-role="content">
+            <p>Clave enviada correctamente.</p>
+            <a href="#" data-role="button" data-rel="back">Aceptar</a>
+        </article>
+    </section>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.0.1.min.js"></script>
+
+<script src="js/login.js"></script>
+
+<script src="js/inicio.js"></script>
+
+<script src="js/novedadeslista.js"></script>
+<script src="js/novedadesdetalle.js"></script>
+<script src="js/actividadeslista.js"></script>
+
+<script src="js/aulaslista.js"></script>
+<script src="js/aulasdetalle.js"></script>
+
+<script src="js/ofertalista.js"></script>
+<script src="js/ofertadetalle.js"></script>
+
+<script src="js/credenciallista.js"></script>
+<script src="js/credencialdetalle.js"></script>
+
+<script src="js/planosaulaslista.js"></script>
+<script src="js/planosaulasdetalle.js"></script>
+
+
+<script src="js/planesestudiolista.js"></script>
+<script src="js/planesestudiodetalle.js"></script>
+
+<script src="js/sedeslista.js"></script>
+<script src="js/sedesdetalle.js"></script>
+
+<script src="js/calendariolista.js"></script>
+<script src="js/calendariodetalle.js"></script>
+
+
+<script src="js/salir.js"></script>
+</body>
+
+</html>
