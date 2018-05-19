@@ -197,13 +197,14 @@ ul.rig li {
 	display: inline-block;
 	padding: 20px 0px;
 	border: 0.05rem solid #FF9800;
-	margin: 0px:
+	margin: 0px;
 	font-size: 12px;
 	font-size: 1rem;
 	vertical-align: top;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	color: #f0f0f0;
 }
 ul.rig li img {
 	max-width: 45%;
@@ -230,7 +231,18 @@ ul.rig li a {
 	color: #000000; /*#FFBF00;*/
 	text-align: center;
 }
-/* class for 2 columns */
+ul.rig li a:active {
+
+	color: #ffffff !important; /*#FFBF00;*/
+
+}
+
+ul.rig li:active {
+	background-color: #FF9800;
+	 color: #fff !important;
+}
+
+
 ul.rig.columns-2 li {
 	width: 50%; /* this value + 2.5 should = 50% 47.5% */
 }

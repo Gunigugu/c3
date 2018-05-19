@@ -20,16 +20,16 @@ function getInicioList(codigo) {
 
 
 		texto='<ul id="inicioList" class="rig columns-2">';
-			texto=texto+'<li><a href="ofertalista.html?id=9002&codigo='+codigo+'"><img src="menu/oferta.png" /><p>Oferta Calificada</p></a></li>';
-			texto=texto+'<li><a href="aulaslista.html?id=9001&codigo='+codigo+'"><img src="menu/aulas.png" /><p>Aulas</p></a></li>';
-			texto=texto+'<li><a href="novedadeslista.html?id=9003&codigo='+codigo+'"><img src="menu/noticias.png" /><p>Info del Mes</p></a></li>';
-			texto=texto+'<li><a href="credenciallista.html?id=9004&codigo='+codigo+'"><img src="menu/credencial.png" /><p>Beneficios Credencial</p></a></li>';
-			texto=texto+'<li><a href="sedeslista.html?id=8005&codigo='+codigo+'"><img src="menu/sedes.png" /><p>Sedes</p></a></li>';
-			texto=texto+'<li><a href="calendariolista.html?id=8006&codigo='+codigo+'"><img src="menu/calendario.png" /><p>Calendario</p></a></li>';
-			texto=texto+'<li><a href="actividadeslista.html?id=8006&codigo='+codigo+'"><img src="menu/actividades.png" /><p>Actividades Gratuitas</p></a></li>';
-			texto=texto+'<li><a href="planosaulaslista.html?id=8006&codigo='+codigo+'"><img src="menu/planos.png" /><p>Planos Aulas</p></a></li>';
-			texto=texto+'<li><a href="planesestudiolista.html?id=8006&codigo='+codigo+'"><img src="menu/planes.png" /><p>Plan de Estudio</p></a></li>';
-			texto=texto+'<li><a href="contacto.html?id=8006&codigo='+codigo+'"><img src="menu/contactos.png" /><p>Contacto</p></a></li>';
+			texto=texto+'<li><a href="ofertalista.html?id=9002&codigo='+codigo+'"><img src="menu/oferta_.png" style="height: 40px;" /><p>Oferta Calificada</p></a></li>';
+			texto=texto+'<li><a href="aulaslista.html?id=9001&codigo='+codigo+'"><img src="menu/aulas_.png" style="height: 40px;" /><p>Aulas</p></a></li>';
+			texto=texto+'<li><a href="novedadeslista.html?id=9003&codigo='+codigo+'"><img src="menu/noticias_.png" style="height: 40px;" /><p>Info del Mes</p></a></li>';
+			texto=texto+'<li><a href="credenciallista.html?id=9004&codigo='+codigo+'"><img src="menu/credencial_.png" style="height: 40px;" /><p>Beneficios Credencial</p></a></li>';
+			texto=texto+'<li><a href="sedeslista.html?id=8005&codigo='+codigo+'"><img src="menu/sedes_.png" style="height: 40px;" /><p>Sedes</p></a></li>';
+			texto=texto+'<li><a href="calendariolista.html?id=8006&codigo='+codigo+'"><img src="menu/calendario_.png" style="height: 40px;" /><p>Calendario</p></a></li>';
+			texto=texto+'<li><a href="actividadeslista.html?id=8006&codigo='+codigo+'"><img src="menu/actividades_.png" style="height: 40px;" /><p>Actividades Gratuitas</p></a></li>';
+			texto=texto+'<li><a href="planosaulaslista.html?id=8006&codigo='+codigo+'"><img src="menu/planos_.png" style="height: 40px;" /><p>Planos Aulas</p></a></li>';
+			texto=texto+'<li><a href="planesestudiolista.html?id=8006&codigo='+codigo+'"><img src="menu/planes_.png" style="height: 40px;" /><p>Plan de Estudio</p></a></li>';
+			texto=texto+'<li><a href="contacto.html?id=8006&codigo='+codigo+'"><img src="menu/contactos_.png" style="height: 40px;" /><p>Contacto</p></a></li>';
 			texto=texto+'<li></li>';
 			texto=texto+'<li><a href="salir.html?id=8006&codigo='+codigo+'"><img src="menu/usuario.png" /><p>Cambiar Usuario</p></a></li>';
 			texto=texto+'</ul>';
