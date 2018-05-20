@@ -295,3 +295,101 @@ a:hover, a:visited, a:link, a:active
 	text-shadow: none;
 	background: #FF9800 !important;
 }
+
+.banner {
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	height: 176px;
+}
+.fce-logos {
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+input.ui-input-text, textarea.ui-input-text {
+	background-image: none;
+
+	display: block;
+	width: 90%;
+	padding: .429rem 1rem;
+	font-size: 1rem;
+	line-height: 1.57142857;
+	color: #76838f;
+	background-color: #fff;
+	background-image: none;
+	background-clip: padding-box;
+	border: 1px solid #e4eaec;
+	border-radius: .215rem;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.ui-btn-up-c {
+	border: 0px solid #ff9701;
+	background: #ff9701;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: none;
+	background-image: none !important;
+	box-shadow: none;
+	border-radius: 22px;
+	line-height: 25px;
+	font-size: .8rem;
+
+}
+.ui-btn-down-c {
+	border: 0px solid #ff9701;
+	background: rgba(255, 150, 1, 0.67);
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-shadow: none;
+	background-image: none !important;
+	box-shadow: none;
+	border-radius: 22px;
+	line-height: 25px;
+	font-size: .8rem;
+}
+
+.ui-br {
+	border-bottom: rgb(130,130,130);
+	border-bottom: rgba(130,130,130,.3);
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+}
+.ui-field-contain, fieldset.ui-field-contain {
+	padding: 1.5em 0;
+	margin: 0;
+	border-width: 0 0 0px 0;
+	overflow: visible;
+}
+.divider {
+	background-color: #f4f6f9;
+	width: 100%;
+	height: 1px;
+	margin: 10px 0px 20px 0px;
+}
+
+.ui-body-a, .ui-dialog.ui-overlay-a {
+	border: 0px solid #858585;
+	color: #000000;
+	text-shadow: 0 0px 0 #eeeeee;
+	background: #ffffff !important;
+	background-image: none;
+}
+.ui-overlay-shadow {
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 0px solid;
+}
+
+.mar-top-bot {
+	margin: 1rem 0;
+}
+.mar-error {
+	margin: 3rem 0;
+}

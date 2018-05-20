@@ -30,8 +30,7 @@ function getInicioList(codigo) {
 			texto=texto+'<li><a href="planosaulaslista.html?id=8006&codigo='+codigo+'"><img src="menu/planos_.png" style="height: 40px;" /><p>Planos Aulas</p></a></li>';
 			texto=texto+'<li><a href="planesestudiolista.html?id=8006&codigo='+codigo+'"><img src="menu/planes_.png" style="height: 40px;" /><p>Plan de Estudio</p></a></li>';
 			texto=texto+'<li><a href="contacto.html?id=8006&codigo='+codigo+'"><img src="menu/contactos_.png" style="height: 40px;" /><p>Contacto</p></a></li>';
-			texto=texto+'<li></li>';
-			texto=texto+'<li><a href="salir.html?id=8006&codigo='+codigo+'"><img src="menu/usuario.png" /><p>Cambiar Usuario</p></a></li>';
+			texto=texto+'<li style="width: 100% !important;"><a href="salir.html?id=8006&codigo='+codigo+'"><img src="menu/usuario_.png" style="height: 40px;" /><p>Cerrar sesión</p></a></li>';
 			texto=texto+'</ul>';
 	$('#three-columns').html(texto);
 }

@@ -11,32 +11,38 @@
 <body>
 
     <section id="login" data-role="page">
-        <header data-role="header">
-            <div class="logodivcece"></div>
-            <div class="logodiv"></div>
-            <h1>Ingresar</h1>
-        </header>
+        <div >
+            <div class="banner"><img src="menu/banner.jpg" style="max-height: 176px;" /></div>
+        </div>
+
         <article data-role="content">
+            <div>
+                <p>Ingresa tus datos para continuar</p>
+            </div>
             <form id="form_login">
-                <div data-role="fieldcontain" class="ui-hide-label">
+                <div data-role="fieldcontain" class="ui-hide-label" style="padding-bottom: 20px !important;">
                     <label for="txtuser">DNI:</label>
-                    <input type="text" name="txtuser" id="txtuser" value="" placeholder="Documento" />
+                    <input type="text" name="txtuser" id="txtuser" value="" placeholder="DNI" />
                 </div>
-                <div data-role="fieldcontain" class="ui-hide-label">
+                <div data-role="fieldcontain" class="ui-hide-label" style="padding-top: 0px !important; ">
                     <label for="txtpassword">Clave:</label>
-                    <input type="password" name="txtpassword" id="txtpassword" value="" placeholder="Clave" />
+                    <input type="password" name="txtpassword" id="txtpassword" value="" placeholder="Contraseña" />
                 </div>
                 <input type="button" value="Ingresar" id="btnLogin">
             </form>
 		 </article>
-        <header data-role="header">
-	<h1>Recuperar Clave</h1>
-        </header>
+        <div class="divider"></div>
+        <div class="fce-logos"><img src="img/logo_fce-uba_short.jpg" style="max-height: 60px;" /></div>
+        <div class="divider"></div>
         <article data-role="content">
+            <div>
+                <h3>¿Olvidaste tu contraseña?</h3>
+                <p>Ingresa tu DNI para recuperarla</p>
+            </div>
             <form id="form_recup">
                 <div data-role="fieldcontain" class="ui-hide-label">
                     <label for="txtdni">DNI:</label>
-                    <input type="text" name="txtdni" id="txtdni" value="" placeholder="Documento" />
+                    <input type="text" name="txtdni" id="txtdni" value="" placeholder="DNI" />
                 </div>
                 <input type="button" value="Recuperar Clave" id="btnRecup">
             </form>
@@ -45,32 +51,28 @@
     </section>
     <!-- Aqui nuestro dialog con el mensaje de error  -->
     <section id="pageError" data-role="dialog">
-        <header data-role="header">
-            <h1>Error</h1>
-        </header>
-        <article data-role="content">
-            <p>Usuario o contraseña no valida</p>
-            <a href="#" data-role="button" data-rel="back">Aceptar</a>
+        <div class="banner mar-error"><img src="menu/error.png" style="max-height: 100px;" /></div>
+        <article data-role="content" style="text-align: center;">
+            <h3 class="mar-top-bot">Ups..</h3>
+            <p>Al parecer uno de los datos no es correcto</p>
+            <a href="#" data-role="button" data-rel="back" class="mar-top-bot">Volver a intentar</a>
         </article>
     </section>
 
     <section id="pageErrorRecup" data-role="dialog">
-        <header data-role="header">
-            <h1>Error</h1>
-        </header>
-        <article data-role="content">
-            <p>DNI no valido</p>
-            <a href="#" data-role="button" data-rel="back">Aceptar</a>
+        <div class="banner mar-error"><img src="menu/error.png" style="max-height: 100px;" /></div>
+        <article data-role="content" style="text-align: center;">
+            <p class="mar-top-bot">El DNI ingresado es inválido</p>
+            <a href="#" data-role="button" data-rel="back">Volver a intentar</a>
         </article>
     </section>
 	
     <section id="pageCorrectRecup" data-role="dialog">
-        <header data-role="header">
-            <h1>Email enviado</h1>
-        </header>
+        <div class="banner mar-error"><img src="menu/success.png" style="max-height: 100px;" /></div>
         <article data-role="content">
-            <p>Clave enviada correctamente.</p>
-            <a href="#" data-role="button" data-rel="back">Aceptar</a>
+            <h3 class="mar-top-bot">Revise tu correo</h3>
+            <p>La nueva contraseña ha sido enviada con éxito</p>
+            <a href="#" data-role="button" data-rel="back">Regresar</a>
         </article>
     </section>
 
