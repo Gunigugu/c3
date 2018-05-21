@@ -6,7 +6,7 @@ $('#ofertaListPage').live('pageshow', function(event) {
 		var oferta = data.items;
 		$.each(oferta, function(index, cursos) {
 				texto='';
-				texto=texto+'<li><a href="ofertadetalle.html?id=' + cursos.id +'&codigo='+codigo +'">' +
+				texto=texto+'<li class="lista_personalizada"><a href="ofertadetalle.html?id=' + cursos.id +'&codigo='+codigo +'">' +
 					'<h4>'+ cursos.mate + '-' + cursos.curso + ' | ' + cursos.materias + '</h4>' +
 					'<p>Docente:' + cursos.docente + '</p>' +
 					'<p>' + cursos.sedes + ' | ' + cursos.dias + ' | ' + cursos.horas +'</p>';

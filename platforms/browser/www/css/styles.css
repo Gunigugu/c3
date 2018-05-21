@@ -445,3 +445,91 @@ input.ui-input-text, textarea.ui-input-text {
 	width: 24px;
 	height: 24px;
 }
+
+.lista_personalizada {
+	border-bottom: 0px solid #ff9701;
+	background: #ffffff;
+	font-weight: normal;
+	text-transform: capitalize;
+	color: #000;
+	text-shadow: none;
+	background-image: none !important;
+	box-shadow: none;
+	border-radius: 0px;
+	line-height: 23px;
+	font-size: .8rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.flow.out {
+	-webkit-transform: translateX(-100%) scale(.7);
+	-webkit-animation-name: flowouttoleft;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-duration: 950ms;
+	-moz-transform: translateX(-100%) scale(.7);
+	-moz-animation-name: flowouttoleft;
+	-moz-animation-timing-function: ease;
+	-moz-animation-duration: 350ms;
+	transform: translateX(-100%) scale(.7);
+	animation-name: flowouttoleft;
+	animation-timing-function: ease;
+	animation-duration: 950ms;
+}
+.flow.in {
+	-webkit-transform: translateX(0) scale(1);
+	-webkit-animation-name: flowinfromright;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-duration: 950ms;
+	-moz-transform: translateX(0) scale(1);
+	-moz-animation-name: flowinfromright;
+	-moz-animation-timing-function: ease;
+	-moz-animation-duration: 350ms;
+	transform: translateX(0) scale(1);
+	animation-name: flowinfromright;
+	animation-timing-function: ease;
+	animation-duration: 950ms;
+}
+
+.ui-bar-c {
+	border: 0px solid #4d4d4d;
+	background: #d6d6d6;
+	color: #ffffff;
+	font-weight: normal;
+	text-shadow: 0 0px 0px #444444;
+	background-image: none;
+}
+
+.ui-listview-filter .ui-input-search {
+	margin: 10px;
+	width: auto;
+	display: block;
+}
+.ui-shadow-inset {
+	-moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+	-webkit-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+	box-shadow: inset 0px 0px 0px rgba(0,0,0,.2);
+}
+.ui-body-c, .ui-dialog.ui-overlay-c {
+	border: 0px solid #858585;
+	color: #000000;
+	text-shadow: 0 0px 0 #eeeeee;
+	background: #fff;
+	background-image: none;
+	font-family: 'Open Sans',sans-serif !important;
+}
+input.ui-input-text, textarea.ui-input-text {
+	background-image: none;
+	display: block;
+	width: 90%;
+	padding: .429rem 1rem;
+	font-size: .9rem;
+	line-height: 1.57142857;
+	color: #525354;
+	background-color: #fff;
+	background-image: none;
+	background-clip: padding-box;
+	border: 1px solid #e4eaec;
+	border-radius: .215rem;
+	box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
