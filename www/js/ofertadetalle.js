@@ -45,8 +45,8 @@ function ofertaDetalle(data) {
 			// 		texto=texto+'<img src="pics\/si_lapiz_gr.png" width="16" height="16" />';
 			// 	}
 			// 	texto=texto+'</p>';
-    texto=texto+'<div class="fce-logos"><img src="img/puntaje.png" class="icon-size" " /> ' + cursos.punta + '</div>';
-	texto=texto+'';
+    texto=texto+'<div class="fce-logos"><img src="img/puntaje.png" class="icon-size" " /> <h3>' + cursos.punta +  '</h3></div>';
+	texto=texto+'<div class="divider"></div><div class=""><p><img src="img/comentario.png" class="icon-size" " /> Comentarios de alumnos</p>	';
 	texto=texto+'';
 	$('#OfertaCurso').html(texto);
 

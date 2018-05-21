@@ -558,11 +558,19 @@ input.ui-input-text, textarea.ui-input-text {
 .ui-listview-inset .ui-li {
 	border-right-width: 0px;
 	border-left-width: 0px;
-	border-bottom: 1px solid #cacaca;
-	color: #a2a2a2;
+	border: 1px solid #ffd08d;
+	color: #696969;
 	font-weight: lighter;
 	font-size: 12px;
+	line-height: 20px;
+	border-radius: 5px;
+	margin: 10px;
 }
+.ui-li-static.ui-li {
+	padding: 1.3em 15px 1.3em 15px;
+	display: block;
+}
+
 .ui-icon-arrow-r {
 	background-position: -104px 50%;
 }
@@ -588,4 +596,10 @@ span.puntaje {
 .icon-size-mr {
 	max-height: 14px;
 	margin-right: 5px;
+}
+
+.ui-shadow {
+	-moz-box-shadow: 0px 0px 0px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.3);
+	box-shadow: 0px 0px 0px rgba(0,0,0,.3);
 }
