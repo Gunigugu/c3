@@ -18,34 +18,34 @@ function ofertaDetalle(data) {
 	var cursos = data.item;
 	console.log(cursos);
 		texto='';
-		texto=texto+'<h3 id="matecurso">'+cursos.matecurso+'</h3>'+
-       '<p id="docente"><img src="pics/fle-naranja.png"><font color="#ff6600">Docente: </font>'+cursos.docente+'</p>'+
-       '<p id="sede"><img src="pics/fle-naranja.png"><font color="#ff6600">Sede: </font>'+cursos.sede+'</p>'+
-	   '<p id="diashoras"><img src="pics/fle-naranja.png"><font color="#ff6600">Dias y Horario: </font>'+cursos.diashoras+'</p>'+
+		texto=texto+'<h3 id="matecurso">'+cursos.matecurso+'</h3><div class="divider"></div>'+
+       '<p id="docente"><img class="icon-size-mr" src="img/docente.png"><font color="#555555"><span style="font-size: 10px;">Docente</span></font><br>'+cursos.docente+'</p><div class="divider"></div>'+
+       '<p id="sede"><img class="icon-size-mr" src="img/sede.png"><font color="#555555"><span style="font-size: 10px;">Sede</span></font><br>'+cursos.sede+'<div class="divider"></div></p>'+
+	   '<p id="diashoras"><img class="icon-size-mr" src="img/horarios.png"><font color="#555555"><span style="font-size: 10px;">Días y Horarios</span></font><br>'+cursos.diashoras+'<div class="divider"></div></p>'+
 	   '';
-			texto=texto+'<p>';
-				if (cursos.opi>0) {
-					texto=texto+'<img src="pics\/si_opinion.png"  width="16" height="16" />';
-				} else {
-					texto=texto+'<img src="pics\/si_opinion_gr.png" width="16" height="16" />';
-				}
-				if (cursos.estad>0) {
-					texto=texto+'<img src="pics\/si_estad.png"  width="16" height="16" />';
-				} else {
-					texto=texto+'<img src="pics\/si_estad_gr.png" width="16" height="16" />';
-				}
-				if (cursos.corte>0) {
-					texto=texto+'<img src="pics\/si_corte.png"  width="16" height="16" />';
-				} else {
-					texto=texto+'<img src="pics\/si_corte_gr.png" width="16" height="16" />';
-				}					
-				if (cursos.punta>0) {
-					texto=texto+'<img src="pics\/si_lapiz.png"  width="16" height="16" />';
-				} else {
-					texto=texto+'<img src="pics\/si_lapiz_gr.png" width="16" height="16" />';
-				}
-				texto=texto+'</p>';
-
+			// texto=texto+'<p>';
+			// 	if (cursos.opi>0) {
+			// 		texto=texto+'<img src="pics\/si_opinion.png"  width="16" height="16" />';
+			// 	} else {
+			// 		texto=texto+'<img src="pics\/si_opinion_gr.png" width="16" height="16" />';
+			// 	}
+			// 	if (cursos.estad>0) {
+			// 		texto=texto+'<img src="pics\/si_estad.png"  width="16" height="16" />';
+			// 	} else {
+			// 		texto=texto+'<img src="pics\/si_estad_gr.png" width="16" height="16" />';
+			// 	}
+			// 	if (cursos.corte>0) {
+			// 		texto=texto+'<img src="pics\/si_corte.png"  width="16" height="16" />';
+			// 	} else {
+			// 		texto=texto+'<img src="pics\/si_corte_gr.png" width="16" height="16" />';
+			// 	}
+			// 	if (cursos.punta>0) {
+			// 		texto=texto+'<img src="pics\/si_lapiz.png"  width="16" height="16" />';
+			// 	} else {
+			// 		texto=texto+'<img src="pics\/si_lapiz_gr.png" width="16" height="16" />';
+			// 	}
+			// 	texto=texto+'</p>';
+    texto=texto+'<div class="fce-logos"><img src="img/puntaje.png" class="icon-size" " /> ' + cursos.punta + '</div>';
 	texto=texto+'';
 	texto=texto+'';
 	$('#OfertaCurso').html(texto);

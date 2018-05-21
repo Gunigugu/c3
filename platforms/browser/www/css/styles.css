@@ -569,5 +569,23 @@ input.ui-input-text, textarea.ui-input-text {
 span.puntaje {
 	right: 75px;
 	position: absolute;
-	top: 25%;
+	top: 35px;
+	color: #3498DB;
+	font-weight: bold;
+}
+
+.ui-li-has-arrow .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-arrow {
+	padding-right: 100px;
+}
+
+.ui-btn-icon-notext .ui-btn-inner {
+	padding: 0px 0px 0px 3px;
+}
+.icon-size {
+	max-height: 14px;
+}
+
+.icon-size-mr {
+	max-height: 14px;
+	margin-right: 5px;
 }

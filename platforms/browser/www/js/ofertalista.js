@@ -33,7 +33,7 @@ $('#ofertaListPage').live('pageshow', function(event) {
 				// 	texto=texto+'<img src="pics\/si_lapiz_gr.png" width="16" height="16" />';
 				// }
 				//texto=texto+'</p>';
-					texto=texto+'<div class="fce-logos"><img src="img/puntaje.png" style="max-height: 12px;" /></div> ' + cursos.punta + '</span>' +
+					texto=texto+'<div class="fce-logos"><img src="img/puntaje.png" class="icon-size" " /></div> ' + cursos.punta + '</span>' +
 					'</a></li>';
 					$('#ofertaList').append(texto);
 		});
