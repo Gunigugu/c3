@@ -46,9 +46,11 @@ function ofertaDetalle(data) {
 			// 	}
 			// 	texto=texto+'</p>';
     texto=texto+'<div class="fce-logos"><img src="img/puntaje.png" class="icon-size" " /> <h3>' + cursos.punta +  '</h3></div>';
-	texto=texto+'<div class="divider"></div><div class=""><p><img src="img/comentario.png" class="icon-size" " /> Comentarios de alumnos</p>	';
-	texto=texto+'';
+	texto=texto+'	';
+
+
 	$('#OfertaCurso').html(texto);
+
 
 	/*
 	$('#employeePic').attr('src', '' + employee.picture);
