@@ -94,11 +94,11 @@ body {
 	font-family: 'Open Sans' !important;
 }
 h1, h2, h3, h4, h5, h6, p span {
-	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .ui-bar-a, .ui-bar-a input, .ui-bar-a select, .ui-bar-a textarea, .ui-bar-a button {
-	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 #employeePic {
 	float: left;
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6, p span {
 	padding-bottom: 16px;
 }
 .ui-body-c, .ui-body-c input, .ui-body-c select, .ui-body-c textarea, .ui-body-c button {
-	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 #employeeDetails p {
 	margin-top: 0px;
@@ -281,7 +281,7 @@ a:hover, a:visited, a:link, a:active
 	font-size: 18px;
 	display: block;
 	line-height: 54px;
-	margin: 0px 0px 0px -7rem;
+	margin: 0px 0px 0px -3rem;
 	/* padding: 0; */
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -297,6 +297,7 @@ a:hover, a:visited, a:link, a:active
 	font-weight: normal;
 	text-shadow: none;
 	background: #FF9800 !important;
+	box-shadow: 2px 4px 10px rgba(0,0,0,.15);
 }
 
 .banner {
@@ -404,6 +405,7 @@ input.ui-input-text, textarea.ui-input-text {
 	position: absolute;
 	left: 10px;
 	top: 14px;
+	width: 40px;
 }
 .ui-btn-up-a {
 	border: 0px solid #e6e6e6;
@@ -474,7 +476,21 @@ input.ui-input-text, textarea.ui-input-text {
 	background-image: none !important;
 	box-shadow: none;
 	border-radius: 0px;
-	line-height: 23px;
+	line-height: 22px;
+	font-size: .8rem;
+	font-family: 'Open Sans', sans-serif;
+}
+.ui-btn-up-c {
+	border-bottom: 1px solid #d6d6d6 !important;
+	background: #ffffff;
+	font-weight: normal;
+	text-transform: capitalize;
+	color: #000;
+	text-shadow: none;
+	background-image: none !important;
+	box-shadow: none;
+	border-radius: 0px;
+	line-height: 22px;
 	font-size: .8rem;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -585,7 +601,7 @@ span.puntaje {
 }
 
 .ui-li-has-arrow .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-arrow {
-	padding-right: 100px;
+	padding-right: 56px;
 }
 
 .ui-btn-icon-notext .ui-btn-inner {
@@ -613,6 +629,48 @@ background: #ffffff;
 border-radius: 5px;
 }
 
+#employeeDetails {
+
+padding: 15px;
+background: #ffffff;
+border-radius: 5px;
+}
+
+#novedadesList > li {
+
+text-transform: inherit;
+background: #ffffff;
+border-radius: 0px;
+	border-bottom: 1px solid #d6d6d6;
+}
+
 .ui-content {
 	background: #f2f2f2;
+}
+.c-blue {
+	color: #3498DB;
+}
+
+.ui-li-heading {
+	font-size: 16px;
+	font-weight: inherit;
+	display: block;
+	margin: .6em 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #202124;
+}
+
+.ui-li-desc {
+	font-size: 14px;
+	font-weight: inherit;
+	display: block;
+	margin: -.5em 0 .6em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	color: #5f6368;
 }
