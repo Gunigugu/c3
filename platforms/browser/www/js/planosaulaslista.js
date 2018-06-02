@@ -6,7 +6,7 @@ $('#planosaulasListPage').live('pageshow', function(event) {
 		var planosaulas = data.items;
 		$.each(planosaulas, function(index, planos) {
 				texto='';
-				texto=texto+'<li><a href="planosaulasdetalle.html?id=' + planos.id +'&codigo='+codigo+ '">' +
+				texto=texto+'<li class="lista_personalizada"><a href="planosaulasdetalle.html?id=' + planos.id +'&codigo='+codigo+ '">' +
 					'<img src="' + planos.imagen + '"/>' +
 					'<h4>'+ planos.titulo + '</h4>' +
 					'<p>Sede: ' + planos.sede  +

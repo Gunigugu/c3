@@ -16,7 +16,7 @@ $('#planesestudioListPage').live('pageshow', function(event) {
 				$('#carreraSI').setAttribute("checked", "checked");
 				$('#carreraSI').checked = true;*/
 				texto='';
-				texto=texto+'<li><a href="carrera.html?id=8&codigo='+codigo+ '">' +
+				texto=texto+'<li class="lista_personalizada"><a href="carrera.html?id=8&codigo='+codigo+ '">' +
 					'<h4>'+ carrera.carreraCP + '</h4>' +
 					'<p>' +carrera.carreraSI +'-'+carrera.carreraLA +'-'+carrera.carreraLE +'-'+carrera.carreraAE +'</p>';
 					

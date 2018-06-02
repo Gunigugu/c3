@@ -5,7 +5,7 @@ $('#aulasListPage').live('pageshow', function(event) {
 	$.getJSON(serviceURL + 'aulas.php?id='+id+'&codigo='+codigo, function (data) {
 		var aulas = data.items;
 		$.each(aulas, function(index, employee) {
-			$('#aulasList').append('<li><a href="aulasdetalle.html?id=' + employee.id +'&codigo='+ codigo + '">' +
+			$('#aulasList').append('<li class="lista_personalizada"><a href="aulasdetalle.html?id=' + employee.id +'&codigo='+ codigo + '">' +
 					'<h4>' + employee.firstName + '</h4>' +
 					'<p>' + employee.lastName + '</p>' +
 					'<p>' + employee.title + '</p>' +

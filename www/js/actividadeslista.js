@@ -5,7 +5,7 @@ $('#actividadesListPage').live('pageshow', function(event) {
 		var actividades = data.items;
 		$.each(actividades, function(index, employee) {
 				texto='';
-					texto=texto+'<li><a href="novedadesdetalle.html?id=' + employee.id + '">' +
+					texto=texto+'<li class="lista_personalizada"><a href="novedadesdetalle.html?id=' + employee.id + '">' +
 					'<img src="' + employee.picture + '"/>' +
 						'<h4>' + employee.firstName + ' ' + employee.lastName + '</h4>' +
 					'<p>' + employee.title + '</p>' ;

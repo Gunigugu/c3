@@ -6,7 +6,7 @@ $('#sedesListPage').live('pageshow', function(event) {
 		var sedes = data.items;
 		$.each(sedes, function(index, sede) {
 				texto='';
-				texto=texto+'<li><a href="sedesdetalle.html?id=' + sede.id +'&codigo='+codigo+ '">' +
+				texto=texto+'<li class="lista_personalizada"><a href="sedesdetalle.html?id=' + sede.id +'&codigo='+codigo+ '">' +
 					'<img src="' + sede.imagen + '"/>' +
 					'<h4>'+ sede.titulo + '</h4>' +
 					'<p>' +sede.descrip +'</p>';

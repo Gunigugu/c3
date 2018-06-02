@@ -6,7 +6,7 @@ $('#calendarioListPage').live('pageshow', function(event) {
 		var calendario = data.items;
 		$.each(calendario, function(index, dia) {
 				texto='';
-				texto=texto+'<li><a href="calendariodetalle.html?id=' + dia.id +'&codigo='+codigo+ '">' +
+				texto=texto+'<li class="lista_personalizada"><a href="calendariodetalle.html?id=' + dia.id +'&codigo='+codigo+ '">' +
 					'<h4>'+ dia.titulo + '</h4>';
 					//texto=texto+'<p>';
 					
