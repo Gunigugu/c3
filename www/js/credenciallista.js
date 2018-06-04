@@ -9,10 +9,9 @@ $('#credencialListPage').live('pageshow', function(event) {
 				texto=texto+'<li class="lista_personalizada"><a href="credencialdetalle.html?id=' + beneficios.id +'&codigo='+codigo+ '">' +
 					'<img src="http://www.cece.org/cece2013/logos/' + beneficios.imagen + '"/>' +
 					'<h4>'+ beneficios.comercio + '</h4>' +
-					'<p>' + beneficios.mediopago +'</p>' +
 					'<p>' + beneficios.descuento +'</p>';
 					//texto=texto+'<p>';
-					texto=texto+'<span class="ui-li-count">' + beneficios.rubro + '</span>' +
+					// texto=texto+'<span class="tags">' + beneficios.rubro + '</span>' +
 					'</a></li>';
 					$('#credencialList').append(texto);
 		});

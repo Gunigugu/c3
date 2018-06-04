@@ -8,14 +8,16 @@ function aulasDetalle(data) {
 	var aulacurso = data.item;
 	console.log(aulacurso);
 		texto='';
-	texto=texto+'<h3 id="matecurso">'+aulacurso.matecurso+'</h3>'+
-       '<p id="docente"><img src="pics/fle-naranja.png"><font color="#ff6600">Docente: </font>'+aulacurso.docente+'</p>'+
-       '<p id="sede"><img src="pics/fle-naranja.png"><font color="#ff6600">Sede: </font>'+aulacurso.sede+'</p>'+
-	   '<p id="diashoras"><img src="pics/fle-naranja.png"><font color="#ff6600">Dias y Horario: </font>'+aulacurso.diashoras+'</p>'+
-	   '<h3 id="aulas"><img src="pics/fle-naranja.png"><font color="#ff6600">Aula: </font>'+aulacurso.aula+'</h3>';
+	texto=texto+'<h3 id="matecurso">'+aulacurso.matecurso+'</h3><div class="divider"></div>'+
 
-	$('#AulaCurso').html(texto);
-	
+        '<p id="docente"><img class="icon-size-mr" src="img/docente.png"><font color="#555555"><span style="font-size: 10px;">Docente</span></font><br>'+aulacurso.docente+'</p><div class="divider"></div>'+
+        '<p id="sede"><img class="icon-size-mr" src="img/sede.png"><font color="#555555"><span style="font-size: 10px;">Sede</span></font><br>'+aulacurso.sede+'<div class="divider"></div></p>'+
+        '<p id="diashoras"><img class="icon-size-mr" src="img/horarios.png"><font color="#555555"><span style="font-size: 10px;">Días y Horarios</span></font><br>'+aulacurso.diashoras+'<div class="divider"></div></p>'+
+
+        '<div class=""><img src="img/aula.png" class="icon-size" " /><font color="#555555"><span style="font-size: 10px;"> Aula</span></font><h3 class="c-green">'+aulacurso.aula+'</h3></div>';
+
+    $('#AulaCurso').html(texto);
+
 }
 
 function getUrlVars() {

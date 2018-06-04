@@ -45,7 +45,7 @@ function ofertaDetalle(data) {
 			// 		texto=texto+'<img src="pics\/si_lapiz_gr.png" width="16" height="16" />';
 			// 	}
 			// 	texto=texto+'</p>';
-    texto=texto+'<div class=""><img src="img/puntaje.png" class="icon-size" " /><font color="#555555"><span style="font-size: 10px;">Puntaje</span></font><h3 class="c-blue">' + cursos.punta +  '</h3></div>';
+    texto=texto+'<div class=""><img src="img/puntaje.png" class="icon-size" " /><font color="#555555"><span style="font-size: 10px;"> Puntaje</span></font><h3 class="c-blue">' + cursos.punta +  '</h3></div>';
 
 	$('#OfertaCurso').html(texto);
 

@@ -7,9 +7,9 @@ $('#aulasListPage').live('pageshow', function(event) {
 		$.each(aulas, function(index, employee) {
 			$('#aulasList').append('<li class="lista_personalizada"><a href="aulasdetalle.html?id=' + employee.id +'&codigo='+ codigo + '">' +
 					'<h4>' + employee.firstName + '</h4>' +
-					'<p>' + employee.lastName + '</p>' +
-					'<p>' + employee.title + '</p>' +
-					'<span class="ui-li-count">Aula: ' + employee.reportCount + '</span></a></li>');
+					'<p>Aula: <strong>' + employee.reportCount + '</strong></p>' +
+
+					'</a></li>');
 		});
 		$('#aulasList').listview('refresh');
 	});
