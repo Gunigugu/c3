@@ -15,8 +15,8 @@ function credencialDetalle(data) {
 					'<h3>'+ beneficios.comercio + '</h3><div class="divider"></div>' +
                     '<p><img class="icon-size-mr" src="img/direccion.png"><font color="#555555"><span style="font-size: 10px;">Dirección</span></font><br>'+beneficios.direccion+'</p><div class="divider"></div>'+
 					'<p><img class="icon-size-mr" src="img/contacto.png"><font color="#555555"><span style="font-size: 10px;">Contacto</span></font><br>'+beneficios.contacto+'</p><div class="divider"></div>'+
-					'<p><img class="icon-size-mr" src="img/contacto.png"><font color="#555555"><span style="font-size: 10px;">Medios de pago</span></font><br>'+beneficios.mediopago+'</p><div class="divider"></div>'+
-					'<p><img class="icon-size-mr" src="img/contacto.png"><font color="#555555"><span style="font-size: 10px;">Beneficio</span></font><br>'+beneficios.descuento+'</p><div class="divider"></div>';
+					'<p><img class="icon-size-mr" src="img/pagos.png"><font color="#555555"><span style="font-size: 10px;">Medios de pago</span></font><br>'+beneficios.mediopago+'</p><div class="divider"></div>'+
+					'<p><img class="icon-size-mr" src="img/beneficio.png"><font color="#555555"><span style="font-size: 10px;">Beneficio</span></font><br>'+beneficios.descuento+'</p><div class="divider"></div>';
 
 
 					

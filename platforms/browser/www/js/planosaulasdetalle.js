@@ -9,10 +9,10 @@ function planosaulasDetalle(data) {
 	console.log(planos);
 		texto='';
 				texto=texto+'' +
-					'<img src="' + planos.imagen + '"  width="99%" />' +
-					'<h4>'+ planos.titulo + '</h4>' +
-					'<p>Sede: ' + planos.sede  +'</p>'+
-					'<p>' + planos.descrip +'</p>';
+					'<img src="' + planos.imagen + '"  width="100%" /><div class="divider"></div>' +
+					'<h3>'+ planos.titulo + '</h3><div class="divider"></div>' +
+                    '<p><img class="icon-size-mr" src="img/sede.png"><font color="#555555"><span style="font-size: 10px;">Sede</span></font><br>'+planos.sede+'</p><div class="divider"></div>'+
+					'<p>'+planos.descrip+'</p>';
 					
 	texto=texto+'';
 	texto=texto+'';

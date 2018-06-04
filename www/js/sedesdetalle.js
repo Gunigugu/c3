@@ -8,9 +8,11 @@ function sedeDetalle(data) {
 	var sede = data.item;
 	console.log(sede);
 		texto='';
+			texto=texto+'' +
+				'<img src="' + sede.imagen + '"  width="100%" /><div class="divider"></div>';
+
 				texto=texto+'' +
-					'<img src="' + sede.imagen + '"  width="99%" />' +
-					'<h4>'+ sede.titulo + '</h4>' +
+					'<h3>'+ sede.titulo + '</h3>' +
 					'<p>' + sede.descrip +'</p>';
 					
 	texto=texto+'';

@@ -277,11 +277,11 @@ a:hover, a:visited, a:link, a:active
 	color: #ffffff !important;
 }
 .ui-header .ui-title, .ui-footer .ui-title {
-	text-align: center;
+	text-align: left;
 	font-size: 18px;
 	display: block;
 	line-height: 54px;
-	margin: 0px 0px 0px -3rem;
+	margin: 0px 0px 0px 45px;
 	/* padding: 0; */
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -625,7 +625,13 @@ span.puntaje {
 	box-shadow: 0px 0px 0px rgba(0,0,0,.3);
 }
 
-#OfertaCurso, #employeeDetails, #AulaCurso, #Credencial {
+#OfertaCurso, #employeeDetails, #AulaCurso, #Credencial, #dia, #planos, #form_carreras, #contacto {
+
+padding: 15px;
+background: #ffffff;
+border-radius: 5px;
+}
+.Sedes {
 
 padding: 15px;
 background: #ffffff;
@@ -674,6 +680,7 @@ iframe {
 	overflow: hidden;
 	white-space: nowrap;
 	color: #202124;
+	text-transform: initial;
 }
 
 .ui-li-desc {
@@ -710,4 +717,53 @@ iframe {
 
 #BeneficiosCredencial img {
 	max-height: 100%;
+}
+
+a.limap {
+	padding-left: 15px !important;
+}
+
+form.checkboxes label {
+	background: none;
+	color: black;
+}
+
+.ui-checkbox input, .ui-radio input {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	width: 24px;
+	height: 24px;
+	margin: -12px 0 0 0;
+	z-index: 1;
+}
+
+.ui-checkbox-on .ui-icon, .ui-radio-on .ui-icon {
+	background-color: #ff9701;
+	left: 8px !important;
+	width: 24px;
+	height: 24px;
+	top: 19px;
+}
+
+.ui-body-e,.ui-dialog.ui-overlay-e {
+	border: 0px solid #f7c942 !important;
+	color:#ffffff !important;
+	background: #E74C3C !important;
+	background-image: none !important;
+	margin-top: 0px !important;
+	border-radius: 5px !important;
+}
+
+.contacto-ul {
+	list-style-type: none;
+}
+
+.contacto-ul li {
+	padding: 15px 0px;
+	vertical-align: text-top;
+}
+
+.contacto-ul li img {
+	margin-top: 
 }

@@ -6,10 +6,10 @@ $('#sedesListPage').live('pageshow', function(event) {
 		var sedes = data.items;
 		$.each(sedes, function(index, sede) {
 				texto='';
-				texto=texto+'<li class="lista_personalizada"><a href="sedesdetalle.html?id=' + sede.id +'&codigo='+codigo+ '">' +
-					'<img src="' + sede.imagen + '"/>' +
+				texto=texto+'<li class="lista_personalizada"><a class="limap" href="sedesdetalle.html?id=' + sede.id +'&codigo='+codigo+ '">' +
+					// '<img src="' + sede.imagen + '"/>' +
 					'<h4>'+ sede.titulo + '</h4>' +
-					'<p>' +sede.descrip +'</p>';
+					// '<p>' +sede.descrip +'</p>';
 					//texto=texto+'<p>';
 					
 					'</a></li>';
