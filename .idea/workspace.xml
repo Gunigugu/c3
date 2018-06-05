@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4f3b1ad-f16d-4ce5-83f2-be79ebe5e76c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon.png" afterPath="$PROJECT_DIR$/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-152.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-152.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-40.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-40@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-40@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-50.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-50.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-50@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-50@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-60.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-60@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-60@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-60@3x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-60@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-72.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-72@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-72@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-76.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-76.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-76@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-76@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-small.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-small@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-small@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-small@3x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon-small@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/ios/icon@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-152.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-152.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-40.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-40@2x.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-40@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-50.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-50.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-50@2x.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-50@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-60.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-60@2x.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-60@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-60@3x.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-60@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-72.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-72@2x.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-72@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-76.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-76.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-76@2x.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-76@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-small.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-small@2x.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-small@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon-small@3x.png" afterPath="$PROJECT_DIR$/www/res/ios/icon-small@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon.png" afterPath="$PROJECT_DIR$/www/res/ios/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/ios/icon@2x.png" afterPath="$PROJECT_DIR$/www/res/ios/icon@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/css/styles.css" afterPath="$PROJECT_DIR$/platforms/browser/www/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/styles.css" afterPath="$PROJECT_DIR$/www/css/styles.css" />
-    </list>
+    <list default="true" id="b4f3b1ad-f16d-4ce5-83f2-be79ebe5e76c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +11,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="339" column="29" lean-forward="false" selection-start-line="339" selection-start-column="23" selection-end-line="339" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="calendariodetalle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/calendariodetalle.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="planesestudiodetalle.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="planesestudiodetalle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/planesestudiodetalle.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -295,12 +266,12 @@
       <updated>1523524036866</updated>
       <workItem from="1523524038063" duration="1547000" />
       <workItem from="1526752076477" duration="23169000" />
-      <workItem from="1527941269427" duration="21642000" />
+      <workItem from="1527941269427" duration="21960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46358000" />
+    <option name="totallyTimeSpent" value="46676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1359" height="828" extended-state="0" />
@@ -729,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="239" column="37" lean-forward="false" selection-start-line="239" selection-start-column="37" selection-end-line="239" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/calendariodetalle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -765,6 +728,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="339" column="29" lean-forward="false" selection-start-line="339" selection-start-column="23" selection-end-line="339" selection-end-column="29" />
           <folding />
         </state>
       </provider>
