@@ -233,13 +233,15 @@ ul.rig li a {
 	text-align: center;
 }
 ul.rig li a:active {
-
 	color: #ffffff !important; /*#FFBF00;*/
-
+	-webkit-transition: background 0.3s ease;
+	-moz-transition: background 0.3s ease;
+	-o-transition: background 0.3s ease;
+	transition: background 0.3s ease;
 }
 
 ul.rig li:active {
-	background-color: #FF9800;
+	background-color: #ececec;
 	 color: #fff !important;
 }
 
@@ -764,6 +766,10 @@ form.checkboxes label {
 	vertical-align: text-top;
 }
 
-.contacto-ul li img {
-	margin-top: 
+
+
+input:focus {
+	outline: #ff9701 solid 2px;
+	border-radius: 2px;
 }
+
