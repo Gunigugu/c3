@@ -504,7 +504,7 @@ li.lista_personalizada:active {
 	-webkit-transform: translateX(-100%) scale(.7);
 	-webkit-animation-name: flowouttoleft;
 	-webkit-animation-timing-function: ease;
-	-webkit-animation-duration: 950ms;
+	-webkit-animation-duration: 550ms;
 	-moz-transform: translateX(-100%) scale(.7);
 	-moz-animation-name: flowouttoleft;
 	-moz-animation-timing-function: ease;
@@ -512,13 +512,13 @@ li.lista_personalizada:active {
 	transform: translateX(-100%) scale(.7);
 	animation-name: flowouttoleft;
 	animation-timing-function: ease;
-	animation-duration: 950ms;
+	animation-duration: 550ms;
 }
 .flow.in {
 	-webkit-transform: translateX(0) scale(1);
 	-webkit-animation-name: flowinfromright;
 	-webkit-animation-timing-function: ease;
-	-webkit-animation-duration: 950ms;
+	-webkit-animation-duration: 550ms;
 	-moz-transform: translateX(0) scale(1);
 	-moz-animation-name: flowinfromright;
 	-moz-animation-timing-function: ease;
@@ -526,7 +526,7 @@ li.lista_personalizada:active {
 	transform: translateX(0) scale(1);
 	animation-name: flowinfromright;
 	animation-timing-function: ease;
-	animation-duration: 950ms;
+	animation-duration: 550ms;
 }
 
 .ui-bar-c {
